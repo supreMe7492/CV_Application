@@ -1,15 +1,19 @@
 #root {
   display: flex;
   gap: 25px;
+  justify-content: center;
 }
 .container {
   flex: 1;
   margin: 15px;
+  max-width: 55%;
+  min-height: 100%;
 }
 .cvContainer {
   background-color: white;
   color: black;
   border-radius: 2px;
+  min-height: 80%;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3), 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -19,6 +23,7 @@
     /* shadow ring 👇 */ 0 0 0 1px hsla(0, 0%, 0%, 0.05),
     /* multiple soft shadows 👇 */ 0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
     0 0.9px 1.5px hsla(0, 0%, 0%, 0.045), 0 3.5px 6px hsla(0, 0%, 0%, 0.09);
+  min-height: 10px;
 }
 .personalInfoContainer {
   background: rgb(9, 9, 121);
@@ -96,9 +101,4 @@
 .dateAdd p {
   display: flex;
   gap: 7px;
-}
-@media (max-width: 1000px) {
-  #root {
-    flex-direction: column;
-  }
 }

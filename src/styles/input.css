@@ -6,6 +6,10 @@
     /* shadow ring 👇 */ 0 0 0 1px hsla(0, 0%, 0%, 0.05),
     /* multiple soft shadows 👇 */ 0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
     0 0.9px 1.5px hsla(0, 0%, 0%, 0.045), 0 3.5px 6px hsla(0, 0%, 0%, 0.09);
+  margin-bottom: 15px;
+}
+.parentField {
+  padding: 10px;
 }
 .close {
   width: 100%;
@@ -22,7 +26,7 @@
   display: flex;
 }
 .fieldSpan label {
-  width: 10%;
+  min-width: 10%;
   margin: 8px;
 }
 
@@ -31,4 +35,8 @@
   flex: 1;
   margin: 8px;
   height: 1.7em;
+}
+
+.fieldSpan textarea {
+  resize: vertical;
 }

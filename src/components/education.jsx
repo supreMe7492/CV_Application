@@ -11,7 +11,7 @@ function EducationForm({
   onEndChange,
 }) {
   return (
-    <fieldset>
+    <fieldset className="parentField">
       <legend>Educations</legend>
       {educations.map((education) => (
         <fieldset key={education.id} className="field">
