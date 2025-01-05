@@ -7,7 +7,17 @@
     /* multiple soft shadows 👇 */ 0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
     0 0.9px 1.5px hsla(0, 0%, 0%, 0.045), 0 3.5px 6px hsla(0, 0%, 0%, 0.09);
 }
-
+.close {
+  width: 100%;
+  text-align: end;
+  position: relative;
+  top: -1.1em;
+  left: 0.4em;
+}
+.close i {
+  font-weight: bold;
+  cursor: pointer;
+}
 .fieldSpan {
   display: flex;
 }
@@ -16,7 +26,8 @@
   margin: 8px;
 }
 
-.fieldSpan input {
+.fieldSpan input,
+.fieldSpan textarea {
   flex: 1;
   margin: 8px;
   height: 1.7em;

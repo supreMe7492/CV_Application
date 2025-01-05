@@ -54,6 +54,49 @@
 .contacts i {
   margin-right: 8px;
 }
+.educationContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.educationContainer span {
+  width: 86%;
+  text-align: center;
+  margin-left: 4em;
+  margin-top: 0.5em;
+  height: 31px;
+  font-size: large;
+  font-weight: 400;
+  background: rgb(8, 8, 204);
+  background: linear-gradient(
+    90deg,
+    rgba(8, 8, 204, 1) 0%,
+    rgba(67, 87, 244, 1) 0%,
+    rgba(102, 143, 239, 1) 100%,
+    rgba(0, 209, 253, 1) 100%
+  );
+  border-radius: 6px;
+  color: bisque;
+}
+.detailsContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3em;
+  margin-left: 5em;
+}
+.dateAdd,
+.nameCourse {
+  display: flex;
+  flex-direction: column;
+  min-height: 5em;
+
+  justify-content: space-evenly;
+}
+.dateAdd p {
+  display: flex;
+  gap: 7px;
+}
 @media (max-width: 1000px) {
   #root {
     flex-direction: column;
